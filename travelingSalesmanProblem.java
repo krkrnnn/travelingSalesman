@@ -30,7 +30,7 @@ public class travelingSalesmanProblem{
 	    }
 	}
 
-	//これだと全ての道順を重複して足している
+	//全ての道順を検証
 	for(int i = 0; i< townnumber; i++){
 	    for(int j = i+1; j < townnumber; j++){
 		for(int k = j+1; k < townnumber; k++){
